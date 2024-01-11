@@ -1,6 +1,6 @@
 const userModel = require('../../models/user');
 
-jest.mock('../models/user');
+jest.mock('../../models/user');
 
 //Create User
 it('should create a new user successfully', async () => {

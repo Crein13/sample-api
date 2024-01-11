@@ -1,8 +1,8 @@
 const supertest = require('supertest');
-const app = require('../app');
-const { userSchema } = require('../models/user');
+const app = require('../../app');
+const { userSchema } = require('../../models/user');
 
-jest.mock('../models/user');
+jest.mock('../../models/user');
 
 describe('UserController', () => {
   describe('createUser', () => {
