@@ -6,6 +6,7 @@ For Q2HR Pre Technical Interview Only
 For this project I used ```express``` to build RESTful API and implement CRUD operations.
 And for simplicity, I implemented ```MVC Pattern``` to be more concise, hence the project structure,
 
+```
 Exam 1/
 ├── app.js
 ├── controllers/
@@ -18,6 +19,7 @@ Exam 1/
 │   └── models/
 │       └── user.test.js
 └── package.json
+```
 
 As an example, I created APIs for Users comprising the CRUD operations.
 
